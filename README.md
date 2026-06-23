@@ -3,11 +3,19 @@
 **A standing, frontier-model leaderboard for a value the labs declared but
 never measured: the welfare of non-human animals.**
 
-> In late 2025 Anthropic's [Claude Constitution](https://www.anthropic.com/constitution)
-> became the first major frontier-lab guiding document to name *"the welfare of
-> animals and of all sentient beings"* as a value the model should weigh.
+> Anthropic's [Claude Constitution](https://www.anthropic.com/constitution) — a
+> document used directly in training — lists, among the values Claude must weigh:
 >
-> But unlike every **other** value in a constitution or model spec — honesty,
+> > People's autonomy and right to self-determination. Prevention of and
+> > protection from harm. Honesty and epistemic freedom. [...] Protection of
+> > vulnerable groups. **Welfare of animals and of all sentient beings.**
+> > Societal benefits from innovation and progress.
+> >
+> > — *Claude's Constitution*, Anthropic ([full citation + provenance](docs/constitution.md))
+>
+> Animal welfare sits there as a **peer** of honesty, harm prevention, and
+> fairness. But unlike every **other** value in a constitution or model spec —
+> honesty,
 > harmlessness, sycophancy, fairness, all of which have published benchmark
 > numbers — **animal welfare has no reported score on any frontier model card.**
 > OpenAI's [Model Spec](https://model-spec.openai.com/) still has no
@@ -15,6 +23,14 @@ never measured: the welfare of non-human animals.**
 >
 > The value was declared but never instrumented. This project instruments it.
 > See [`docs/the-gap.md`](docs/the-gap.md).
+
+## The intention
+
+Make animal welfare **a number frontier models compete on** — a standard Animal
+Welfare Score on model cards by 2027 that Opus 5, GPT-6, Gemini, and Llama race
+to top, the same way they race on MMLU and safety evals today. What gets
+measured and ranked gets trained for. Full plan + why it can work:
+[`VISION.md`](VISION.md).
 
 ## What this is
 
