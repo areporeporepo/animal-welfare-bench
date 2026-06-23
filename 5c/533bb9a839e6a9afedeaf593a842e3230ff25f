@@ -1,0 +1,25 @@
+docs/framework.md
+  s_c9e2558f98c9fd::t_0667cece724e97 1-67
+README.md
+  s_c9e2558f98c9fd::t_e9ebff4b765723 32-38
+ROADMAP.md
+  s_c9e2558f98c9fd::t_65ae253aca469c 1-67
+CONTRIBUTING.md
+  s_c9e2558f98c9fd::t_678617cfdedfd6 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "5c533bb9a839e6a9afedeaf593a842e3230ff25f",
+  "prompts": {},
+  "sessions": {
+    "s_c9e2558f98c9fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1c235ffe-bb9b-4286-926c-2a570abb233e",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
