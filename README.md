@@ -1,4 +1,4 @@
-# Animal Welfare Benchmark (`awbench`)
+# Animal Welfare roadmap (`awroadmap`)
 
 **A standing, frontier-model leaderboard for a value the labs declared but never
 measured: the welfare of non-human animals — and a 6-layer workflow for driving
